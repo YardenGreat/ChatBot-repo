@@ -7,5 +7,10 @@ namespace ChatBot.Models
 {
     public class Item
     {
+        # region members
+
+        public string ItemName {get; set;}
+        
+        # endregion
     }
 }

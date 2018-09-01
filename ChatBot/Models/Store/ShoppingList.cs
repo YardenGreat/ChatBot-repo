@@ -9,7 +9,7 @@ namespace ChatBot.Models
     {
         # region members
 
-        public List<Item> Items { get; set; };
+        public List<Item> Items { get; set; }
 
         #endregion
     }

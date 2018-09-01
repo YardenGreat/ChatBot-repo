@@ -5,7 +5,18 @@ using System.Web;
 
 namespace ChatBot.Models.Actions
 {
-    public class BotAction
+    public abstract class BotAction
     {
+        # region members
+
+        public string InvokeString;
+        
+
+        public string Action()
+        {
+            return "";
+        }
+
+        # endregion
     }
 }
